@@ -1,0 +1,220 @@
+browser = chrome
+url = http://aec-prod.us-east-2.elasticbeanstalk.com/#/app/login
+
+::::Login::::
+
+user_email_id = ganesh.shankar@navyuginfo.com
+user_password = aec@123456
+invalid_email_id = ganesh.shankar+98569@navyuginfo.com
+wrong_password = Ganesh@2345
+forget_email = ganesh.shankar+3@navyuginfo.com
+
+::::my profile::::
+
+user_firstname = Shikha
+user_lastname = kumari
+user_dob = 2000-03-02
+user_mobileno = 9876543210
+user_language = english
+user_address = G-203, sector63, noida
+user_profile_pic = C:\Users\Ganesh\eclipse-workspace\Smoke_Test_AEC\data\profilepic.exe
+user_firstname_blank =   
+user_mobileno_blank =   
+expected_message = This is required field
+
+
+um_user_firstname =  Soni
+um_user_lastname = kumari
+um_user_mobileno = 8765432109
+um_user_address = F-201, sector 62, noida
+um_user_email = ganesh.shankar+301@navyuginfo.com
+
+eum_user_firstname =  Rahul
+eum_user_lastname = raj
+eum_user_mobileno = 7418529630
+eum_user_address = T-20, sector 62, G-noida
+
+edit_user_email = ganesh.shankar+26@navyuginfo.com
+delete_user_email = ganesh.shankar+26@navyuginfo.com
+status_user_email = ganesh.shankar+26@navyuginfo.com
+
+logo_of_portal = C:\Users\Ganesh\eclipse-workspace\Smoke_Test_AEC\data\logoofportal.exe
+logo_of_portal1 = C:\Users\Ganesh\eclipse-workspace\Smoke_Test_AEC\data\logoofportal1.exe
+courses_name = AccountingandFinance
+
+::::Search:::
+
+courses_name = Accounting and Finance
+cource_suggestion = 0
+intake_value1 = 12
+intake_value2 = 11
+intake_value3 = 10
+intake_value4 = 9
+intake_value5 = 8
+intake_value6 = 7
+intake_value7 = 6
+intake_value8 = 5
+intake_value9 = 4
+intake_value10 = 3
+intake_value11 = 2
+intake_value12 = 1
+
+delivery_method_value1 = 4
+delivery_method_value2 =3
+delivery_method_value3 =2
+delivery_method_value4 =1
+
+curent_status_value1 = 3
+curent_status_value2 = 2
+curent_status_value3 = 1
+
+course_level_value1 = 9
+course_level_value2 = 8
+course_level_value3 = 7
+course_level_value4 = 6
+course_level_value5 = 5
+course_level_value6 = 4
+course_level_value7 = 3
+course_level_value8 = 2
+
+application_requirement_value1 = 6
+application_requirement_value2 = 5
+application_requirement_value3 = 4
+application_requirement_value4 = 3
+application_requirement_value5 = 2
+application_requirement_value6 = 1
+
+
+tuition_value = -140
+duration_value = -180
+internship_value = -170
+application_value = -150
+
+expected_tution_value1 = Courses (14) available in (5) Institutes
+expected_duration_value1= Courses (8) available in (4) Institutes
+expected_internship_value1 = Courses (11) available in (5) Institutes
+expected_application_value1= Courses (11) available in (5) Institutes
+
+expected_intake_value1 = Courses (3) available in (2) Institutes
+expected_intake_value2 = Courses (13) available in (6) Institutes
+expected_intake_value3 = Courses (16) available in (6) Institutes
+
+expected_delivery_value1 = Courses (14) available in (6) Institutes
+expected_delivery_value2 = Courses (16) available in (6) Institutes
+
+expected_status_value1 = Courses (5) available in (3) Institutes
+expected_status_value2 = Courses (8) available in (3) Institutes
+
+expected_course_value1 = Courses (10) available in (5) Institutes
+expected_course_value2 = Courses (15) available in (6) Institutes
+
+expected_application_value1 = Courses (1) available in (1) Institutes
+expected_application_value2 = Courses (1) available in (1) Institutes
+
+intake_allfilter1 = 12
+intake_allfilter2 = 10
+intake_allfilter3 = 9
+intake_allfilter4 = 8
+intake_allfilter5 = 5
+intake_allfilter6 = 4
+expected_intake_value = Courses (11) available in (5) Institutes
+delivery_allfilter1 = 4
+delivery_allfilter2 = 3
+expected_delivery_value = Courses (10) available in (5) Institutes
+current_allfilter1 = 2
+current_allfilter2 = 1
+expected_current_value = Courses (2) available in (2) Institutes
+course_allfilter1 = 9
+course_allfilter2 = 3
+course_allfilter3 = 6
+course_allfilter4 = 8
+expected_course_value = Courses (1) available in (1) Institutes
+application_allfilter1 = 5
+application_allfilter2 = 3
+application_allfilter3 = 1
+expected_application_value = Courses (1) available in (1) Institutes
+tuition_allfilter1 = -162
+expected_tuition_value = Courses (1) available in (1) Institutes
+duration_allfilter1 = -195
+expected_duration_value = Courses (1) available in (1) Institutes
+internship_allfilter1 = -181
+expected_internship_value = Courses (1) available in (1) Institutes
+applicationfee_allfilter1 = -205
+expected_applicationfee_value = Courses (0) available in (0) Institutes
+
+
+expected_assertion_value1_fil2 = Courses (1) available in (1) Institutes
+expected_assertion_value2_fil2 = Courses (1) available in (1) Institutes
+expected_assertion_value3_fil2 = Courses (2) available in (1) Institutes
+
+tuition_allfilter2 = -170
+duration_allfilter2 = -155
+internship_allfilter2 = -219
+applicationfee_allfilter2 = -140 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::::Join_as_agency::::
+
+agencyname = Rahul
+address = G-203, sector 50, noida
+country_name = India
+state_name= Chandigarh
+city_name = noida
+pincode_no = 852852
+title = Miss.
+dir_firstname= shikha
+dir_mobileno= 9876549876
+agency_website= https://navyuginfo.com/
+landline= 9876543210
+country_interest= Albania
+established= 1990
+inst_name= Global Logic
+inst_country= Belgium
+face_url= https://www.facebook.com/Google/
+insta_url= https://www.instagram.com/google/?hl=en
+dir_lastname= Gupta
+total_employee= 76 - 100
+oth_branches= Gola road, patna, Bihar
+lst_year_studentno= 500
+
+details_which_has_to_edit_before_run::::
+
+email_id = testkumarb4@gmail.com
+dir_emailid= testkumarb4@gmail.com
+email_id_all= testkumarb5@gmail.com
+dir_emailid_all= testkumarb5@gmail.com
+email_id_test1 = testrajb1@gmail.com
+email_id_test2 = testrajb2@gmail.com
+email_id_test3 = testrajb3@gmail.com
+dir_emailid_test1 = testrajb1@gmail.com
+dir_emailid_test2 = testrajb2@gmail.com
+dir_emailid_test3 = testrajb3@gmail.com
+
+expected_result_error = This Agency is already present
+
+
+
+
+
+
+
+
+
