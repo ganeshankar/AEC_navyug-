@@ -53,6 +53,7 @@ public class AEC_login extends AEC_base{
 	
 	@FindBy (xpath="//span[text()='Account Setting']")
 	WebElement account_setting ;
+
 	
 	
 	public AEC_login() {
@@ -94,8 +95,14 @@ public class AEC_login extends AEC_base{
 		return invalid_email_forget_password.getText();
 	}
 	
+	public Boolean navigate_dropdown() {
+		return drop_down.isDisplayed();
+		
+	}
+	
 	public void navigate_page() {
 		drop_down.click();
 		account_setting.click();
 	}
+		
 }

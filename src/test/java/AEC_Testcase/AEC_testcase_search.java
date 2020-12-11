@@ -1,5 +1,7 @@
 package AEC_Testcase;
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -31,36 +33,37 @@ public class AEC_testcase_search extends AEC_base{
 	
 	  @Test(priority =1) 
 	  public void intake_filter() throws InterruptedException {
+		  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	  searchpage.intakefilter(prop.getProperty("intake_value1"));
-	  Thread.sleep(8000);
+	 // Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value2"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value3"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value4"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  String actual_intake_value1 = searchpage.result();
 	  Assert.assertEquals(actual_intake_value1, prop.getProperty("expected_intake_value1"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value5"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value6"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value7"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value8"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value9"));
-	  Thread.sleep(8000);
+//	  Thread.sleep(8000);
 	  String actual_intake_value2 = searchpage.result();
 	  Assert.assertEquals(actual_intake_value2, prop.getProperty("expected_intake_value2"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value10"));
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value11"));
-	  Thread.sleep(8000);
+//	  Thread.sleep(8000);
 	  searchpage.intakefilter(prop.getProperty("intake_value12")); 
-	  Thread.sleep(8000);
+	//  Thread.sleep(8000);
 	  String actual_intake_value3 = searchpage.result();
 	  Assert.assertEquals(actual_intake_value3, prop.getProperty("expected_intake_value3"));
 	  }

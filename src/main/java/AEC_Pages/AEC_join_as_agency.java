@@ -19,7 +19,7 @@ public class AEC_join_as_agency extends AEC_base{
 	WebElement address_line1;
 	
 	@FindBy(xpath ="//label[text()='Country *']/parent::div/div/select")
-	WebElement country;
+	WebElement country; 
 	
 	@FindBy(xpath ="//label[text()='State *']/parent::div/div/select")
 	WebElement state;
@@ -110,6 +110,11 @@ public class AEC_join_as_agency extends AEC_base{
 		joinasagency.click();
 		Thread.sleep(5000);
 	}
+	
+	public Boolean join_as_agency_status() {
+	return joinasagency.isDisplayed();
+	}
+	
 	
 	public void join_as_agency_mandatory_field(String agencyname,String address, String country_name, String state_name, String city_name, 
 			String pincode_no, String email_id, String title, String dir_firstname, String dir_emailid, String dir_mobileno) throws InterruptedException {

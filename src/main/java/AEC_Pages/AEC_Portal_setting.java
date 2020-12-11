@@ -22,6 +22,12 @@ public class AEC_Portal_setting extends AEC_base{
 	@FindBy(xpath = "//span[text()='Save']")
 	WebElement save_button;
 	
+	@FindBy(xpath ="//span[text()='Save']/parent::button")
+	WebElement save_button_status;
+	
+	@FindBy(xpath = "//*[contains(@src,'logoofportal.jpg')]")
+	WebElement AEC_logo;
+	
 	public AEC_Portal_setting() {
 		PageFactory.initElements(driver, this);
 	}
@@ -39,8 +45,16 @@ public class AEC_Portal_setting extends AEC_base{
 		save_button.click();
 	}
 	
+	public Boolean savebuttonenable() {
+		return save_button_status.isEnabled();
+	}
+	
 	public void cancelbutton() {
 		cancel_button.click();
+	}
+	
+	public Boolean aeclogo() {
+	return AEC_logo.isDisplayed();
 	}
 	
 }

@@ -26,8 +26,9 @@ public class AEC_testcase_login extends AEC_base{
 	@Test(priority =1)
 	public void login_with_valid_user() {
 	loginpage.login(prop.getProperty("user_email_id"),prop.getProperty("user_password"));
-	String actual_result = driver.getTitle();
-	System.out.println(actual_result );
+	Boolean actual_result = loginpage.navigate_dropdown();
+	Assert.assertTrue(actual_result);
+	
 	}
 	
 	@Test(priority =2)

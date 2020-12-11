@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AEC_Testcase.AEC_testcase_search">
+      <class name="AEC_Testcase.AEC_testcase_add_student">
         <methods>
-          <include name="allfilter2"/>
-          <include name="application_fee_filter"/>
+          <include name="education_history"/>
           <include name="setup"/>
-          <include name="internship_period_filter"/>
-          <include name="duration_filter"/>
+          <include name="genaral_information"/>
         </methods>
-      </class> <!-- AEC_Testcase.AEC_testcase_search -->
+      </class> <!-- AEC_Testcase.AEC_testcase_add_student -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

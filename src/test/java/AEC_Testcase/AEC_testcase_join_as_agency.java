@@ -2,6 +2,7 @@ package AEC_Testcase;
 
 import java.io.IOException;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import AEC_Base.AEC_base;
@@ -30,7 +31,8 @@ public class AEC_testcase_join_as_agency extends AEC_base{
 	           prop.getProperty("title"),prop.getProperty("dir_firstname"),prop.getProperty("dir_emailid"), prop.getProperty("dir_mobileno"));
 	  jagency.join_as_agency_button();
 	  jagency.confirm_create_agency();
-	  
+	  Boolean expected_result = jagency.join_as_agency_status();
+	  Assert.assertTrue(expected_result);
 	  }
 	  
 	  @Test(priority =2) 
@@ -52,6 +54,9 @@ public class AEC_testcase_join_as_agency extends AEC_base{
 	  Thread.sleep(5000);
 	  jagency.join_as_agency_button();
 	  jagency.confirm_create_agency();
+	  Boolean expected_result = jagency.join_as_agency_status();
+	  Assert.assertTrue(expected_result);
+	  
 	  }
 	 
 	
@@ -73,7 +78,8 @@ public class AEC_testcase_join_as_agency extends AEC_base{
 		Thread.sleep(5000);
 		jagency.join_as_agency_button();
 		jagency.confirm_create_agency();
-	
+		Boolean expected_result = jagency.join_as_agency_status();
+		Assert.assertTrue(expected_result);
 	}
 	
 	@Test(priority =4)
@@ -91,7 +97,8 @@ public class AEC_testcase_join_as_agency extends AEC_base{
 		Thread.sleep(5000);
 		jagency.join_as_agency_button();
 		jagency.confirm_create_agency();
-	
+		Boolean expected_result = jagency.join_as_agency_status();
+		Assert.assertTrue(expected_result);
 	}
 	
 	@Test(priority =5)
@@ -109,6 +116,8 @@ public class AEC_testcase_join_as_agency extends AEC_base{
 		Thread.sleep(5000);
 		jagency.join_as_agency_button();
 		jagency.confirm_create_agency();
+		Boolean expected_result = jagency.join_as_agency_status();
+		Assert.assertTrue(expected_result);
 	}
 	
 	
@@ -122,4 +131,8 @@ public class AEC_testcase_join_as_agency extends AEC_base{
 		Assert.assertEquals(actual_result_error, prop.getProperty("expected_result_error"));
 	}
 
+	@AfterMethod()
+	public void close() {
+	driver.quit();
+	}
 }

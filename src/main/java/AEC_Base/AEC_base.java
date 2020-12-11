@@ -49,12 +49,14 @@ import AEC_Util.AEC_util;
 				System.setProperty("webdriver.gecko.driver", "C:\\Users\\Ganesh\\eclipse-workspace\\Smoke_Test_AEC\\chrome\\chromedriver.exe");
 				driver = new FirefoxDriver();
 				
+				
 					}
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(AEC_util.pageload_wait, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(AEC_util.Implicit_wait, TimeUnit.SECONDS);
-		
+
 		driver.get(prop.getProperty("url"));
 		}
 

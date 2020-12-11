@@ -7,7 +7,7 @@ user_email_id = ganesh.shankar@navyuginfo.com
 user_password = aec@123456
 invalid_email_id = ganesh.shankar+98569@navyuginfo.com
 wrong_password = Ganesh@2345
-forget_email = ganesh.shankar+3@navyuginfo.com
+forget_email = ganesh.shankar@navyuginfo.com
 
 ::::my profile::::
 
@@ -22,6 +22,7 @@ user_firstname_blank =
 user_mobileno_blank =   
 expected_message = This is required field
 
+::::user management::::
 
 um_user_firstname =  Soni
 um_user_lastname = kumari
@@ -38,8 +39,6 @@ edit_user_email = ganesh.shankar+26@navyuginfo.com
 delete_user_email = ganesh.shankar+26@navyuginfo.com
 status_user_email = ganesh.shankar+26@navyuginfo.com
 
-logo_of_portal = C:\Users\Ganesh\eclipse-workspace\Smoke_Test_AEC\data\logoofportal.exe
-logo_of_portal1 = C:\Users\Ganesh\eclipse-workspace\Smoke_Test_AEC\data\logoofportal1.exe
 courses_name = AccountingandFinance
 
 ::::Search:::
@@ -117,59 +116,46 @@ intake_allfilter3 = 9
 intake_allfilter4 = 8
 intake_allfilter5 = 5
 intake_allfilter6 = 4
-expected_intake_value = Courses (11) available in (5) Institutes
+
 delivery_allfilter1 = 4
 delivery_allfilter2 = 3
-expected_delivery_value = Courses (10) available in (5) Institutes
+
 current_allfilter1 = 2
 current_allfilter2 = 1
-expected_current_value = Courses (2) available in (2) Institutes
+
 course_allfilter1 = 9
 course_allfilter2 = 3
 course_allfilter3 = 6
 course_allfilter4 = 8
-expected_course_value = Courses (1) available in (1) Institutes
+
 application_allfilter1 = 5
 application_allfilter2 = 3
 application_allfilter3 = 1
-expected_application_value = Courses (1) available in (1) Institutes
+
 tuition_allfilter1 = -162
-expected_tuition_value = Courses (1) available in (1) Institutes
 duration_allfilter1 = -195
-expected_duration_value = Courses (1) available in (1) Institutes
 internship_allfilter1 = -181
-expected_internship_value = Courses (1) available in (1) Institutes
 applicationfee_allfilter1 = -205
+
+
+expected_intake_value = Courses (11) available in (5) Institutes
+expected_delivery_value = Courses (10) available in (5) Institutes
+expected_current_value = Courses (2) available in (2) Institutes
+expected_course_value = Courses (1) available in (1) Institutes
+expected_application_value = Courses (1) available in (1) Institutes
+expected_tuition_value = Courses (1) available in (1) Institutes
+expected_duration_value = Courses (1) available in (1) Institutes
+expected_internship_value = Courses (1) available in (1) Institutes
 expected_applicationfee_value = Courses (0) available in (0) Institutes
-
-
-expected_assertion_value1_fil2 = Courses (1) available in (1) Institutes
-expected_assertion_value2_fil2 = Courses (1) available in (1) Institutes
-expected_assertion_value3_fil2 = Courses (2) available in (1) Institutes
 
 tuition_allfilter2 = -170
 duration_allfilter2 = -155
 internship_allfilter2 = -219
 applicationfee_allfilter2 = -140 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+expected_assertion_value1_fil2 = Courses (1) available in (1) Institutes
+expected_assertion_value2_fil2 = Courses (1) available in (1) Institutes
+expected_assertion_value3_fil2 = Courses (2) available in (1) Institutes
 
 ::::Join_as_agency::::
 
@@ -209,6 +195,299 @@ dir_emailid_test2 = testrajb2@gmail.com
 dir_emailid_test3 = testrajb3@gmail.com
 
 expected_result_error = This Agency is already present
+
+
+add studet:::::::::::::
+
+current_qual = Graduate (Bachelors)
+
+
+emailid = c@gmail.com
+stud_title = Mr.
+stud_firstname =  raju
+stud_lastname = kumar
+stud_gender = Male
+stud_dob = 2/02/2000
+stud_nationality =Congo
+stud_mobile = 7845124587
+stud_alt_no = 9865321254
+stud_passport = 98653212
+stud_country =  India
+stud_state = Uttar Pradesh
+
+stud_city = noida
+stud_houseno = B25
+stud_pincode = 963852
+
+current_qualification1 = Graduate (Bachelors)
+tenclass1= 3
+tenclass2= 2
+tenclass3 = 1
+edu_value1 = 9
+edu_value2 = 6
+edu_value3 = 88
+edu_data1 = CBSE
+edu_data2 = 1999
+edu_data3 = 0-100%
+
+twelveclassvalue1 = 11
+twelveclassvalue2 = 10
+twelveclassvalue3 = 9
+twelveclassvalue4 = 8
+twelveclassvalue5 = 7
+twelveclassvalue6 = 6
+twelveclassvalue7 = 5
+twelveclassvalue8 = 3
+twelveclassvalue9 = 2
+twelveclassvalue10 = 1
+twelve_value1 = 80
+twelve_value2 = 5
+twelve_value3 = 60
+twelve_value4 = 70
+twelve_value5 = 80
+twelve_value6 = 65
+twelve_value7 = 75
+twelve_value8 = 95
+twelve_value9 = 5
+twelve_value10 = 98
+
+
+twelveclassselect1 = 6
+twelveclassselect2 = 5
+twelveclassselect3 = 4
+twelveclassselect4 = 3
+twelveclassselect5 = 2
+twelveclassselect6 = 1
+twelve_data1 = IB - International Baccalaureate
+twelve_data2 = 1992
+twelve_data3 = 0-100%
+twelve_data4 = ICSE - Indian School Certificate Examinations
+twelve_data5 = 1991
+twelve_data6 = 0-100%
+
+
+gradclassselect1 = 10
+gradclassselect2 = 9
+gradclassselect3 = 8
+gradclassselect4 = 7
+gradclassselect5 = 6
+gradclassselect6 = 5
+gradclassselect7 = 4
+gradclassselect8 = 3
+gradclassselect9 = 2
+gradclassselect10 = 1
+
+grad_data1 = BEng
+grad_data2 = Full Time
+grad_data3 = 4
+grad_data4 = 0-10 CGPA
+grad_data5 = Haryana State Board, India
+grad_data6 = 2004
+grad_data7 = 0-100%
+grad_data8 = Andhra Pradesh State Board, India
+grad_data9 = 2002
+grad_data10 = 0-100%
+
+
+
+gradclassvalue1 = 18
+gradclassvalue2 = 17
+gradclassvalue3 = 16
+gradclassvalue4 = 15
+gradclassvalue5 = 14
+gradclassvalue6 = 13
+gradclassvalue7 = 11
+gradclassvalue8 = 10
+gradclassvalue9 = 9
+gradclassvalue10 = 8
+gradclassvalue11 = 7
+gradclassvalue12 = 6
+gradclassvalue13 = 5
+gradclassvalue14 = 3
+gradclassvalue15 = 2
+gradclassvalue16 = 1
+
+grad_value1 = 7
+grad_value2 = maths
+grad_value3 = punjab university
+grad_value4 = 2010 July 
+grad_value5 = 2013 December
+grad_value6 = 9.5
+grad_value7 = 80
+grad_value8 = 6
+grad_value9 = 99
+grad_value10 = 80
+grad_value11 = 66
+grad_value12 = 85
+grad_value13 = 75
+grad_value14 = 65
+grad_value15 = 4
+grad_value16 = 80
+
+pgradclassvalue1 = 25
+pgradclassvalue2 = 24
+pgradclassvalue3 = 23
+pgradclassvalue4 = 22
+pgradclassvalue5 = 21
+pgradclassvalue6 = 20
+pgradclassvalue7 = 18
+pgradclassvalue8 = 17
+pgradclassvalue9 = 16
+pgradclassvalue10 = 15
+pgradclassvalue11 = 14
+pgradclassvalue12 = 13
+pgradclassvalue13 = 11
+pgradclassvalue14 = 10
+pgradclassvalue15 = 9
+pgradclassvalue16 = 8
+pgradclassvalue17 = 7
+pgradclassvalue18 = 6
+pgradclassvalue19 = 5
+pgradclassvalue20 = 3
+pgradclassvalue21 = 2
+pgradclassvalue22 = 1
+
+pgrad_value1 = MBA degree
+pgrad_value2 = maths
+pgrad_value3 = 
+pgrad_value4 = 
+pgrad_value5 = PU university
+pgrad_value6 = 2
+pgrad_value7 = Electronics
+pgrad_value8 = ECE
+pgrad_value9 = WBUT
+pgrad_value10 = 
+pgrad_value11 = 
+pgrad_value12 = 8.75
+pgrad_value13 = 80
+pgrad_value14 = Science
+pgrad_value15 = 50
+pgrad_value16 = 60
+pgrad_value17 = 70
+pgrad_value18 = 80
+pgrad_value19 = 90
+pgrad_value20 = 99
+pgrad_value21 = Science
+pgrad_value22 = 99
+
+pgradclassselect1 = 13
+pgradclassselect2 = 12
+pgradclassselect3 = 11
+pgradclassselect4 = 10
+pgradclassselect5 = 9
+pgradclassselect6 = 8
+pgradclassselect7 = 7
+pgradclassselect8 = 6
+pgradclassselect9 = 5
+pgradclassselect10 = 4
+pgradclassselect11 = 3
+pgradclassselect12 = 2
+pgradclassselect13 = 1
+
+
+pgrad_data1 = MBA
+pgrad_data2 = Distance Learning
+pgrad_data3 = 0-4 CGPA
+pgrad_data4 = BTech
+pgrad_data5 = Full Time
+pgrad_data6 = 3
+pgrad_data7 = 0-10 CGPA
+pgrad_data8 = IB - International Baccalaureate
+pgrad_data9 = 2010
+pgrad_data10 = 0-100%
+pgrad_data11 = ISC - Indian School Certificate
+pgrad_data12 = 2008
+pgrad_data13 = 0-100%
+
+phdclassvalue1 = 25
+phdclassvalue2 = 24
+phdclassvalue3 = 23
+phdclassvalue4 = 22
+phdclassvalue5 = 21
+phdclassvalue6 = 20
+phdclassvalue7 = 18
+phdclassvalue8 = 17
+phdclassvalue9 = 16
+phdclassvalue10 = 15
+phdclassvalue11 = 14
+phdclassvalue12 = 13
+phdclassvalue13 = 11
+phdclassvalue14 = 10
+phdclassvalue15 = 9
+phdclassvalue16 = 8
+phdclassvalue17 = 7
+phdclassvalue18 = 6
+phdclassvalue19 = 5
+phdclassvalue20 = 3
+phdclassvalue21 = 2
+phdclassvalue22 = 1
+phdclassvalue23 = 30
+phdclassvalue24 = 29
+phdclassvalue25 = 28
+phdclassvalue26 = 27
+
+phd_value1 = MBA degree
+phd_value2 = maths
+phd_value3 = 
+phd_value4 = 
+phd_value5 = PU university
+phd_value6 = 2
+phd_value7 = Electronics
+phd_value8 = ECE
+phd_value9 = WBUT
+phd_value10 = 
+phd_value11 = 
+phd_value12 = 8.75
+phd_value13 = 80
+phd_value14 = Science
+phd_value15 = 50
+phd_value16 = 60
+phd_value17 = 70
+phd_value18 = 80
+phd_value19 = 90
+phd_value20 = 99
+phd_value21 = Science
+phd_value22 = 99
+phd_value23 = Neology
+phd_value24 = 
+phd_value25 = 
+phd_value26 = Magard narayan das
+
+
+phdclassselect1 = 13
+phdclassselect2 = 12
+phdclassselect3 = 11
+phdclassselect4 = 10
+phdclassselect5 = 9
+phdclassselect6 = 8
+phdclassselect7 = 7
+phdclassselect8 = 6
+phdclassselect9 = 5
+phdclassselect10 = 4
+phdclassselect11 = 3
+phdclassselect12 = 2
+phdclassselect13 = 1
+
+
+phd_data1 = MBA
+phd_data2 = Distance Learning
+phd_data3 = 0-4 CGPA
+phd_data4 = BTech
+phd_data5 = Full Time
+phd_data6 = 3
+phd_data7 = 0-10 CGPA
+phd_data8 = IB - International Baccalaureate
+phd_data9 = 2010
+phd_data10 = 0-100%
+phd_data11 = ISC - Indian School Certificate
+phd_data12 = 2008
+phd_data13 = 0-100%
+
+
+
+
+
+
 
 
 
